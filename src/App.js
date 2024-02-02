@@ -8,7 +8,8 @@ import Contact from './Pages/contact';
 import VPS from './Pages/Hosting Pages/vps';
 import CloudHost from './Pages/Hosting Pages/cloudHosting';
 import Reseller from './Pages/Hosting Pages/resellerhosting';
-import SHost from './Pages/Hosting Pages/sharehosting';
+
+import ShareHost from './Pages/Hosting Pages/shareHost';
 
 
 
@@ -29,8 +30,9 @@ function App() {
           <Route path='/vps' element={<VPS/>}/>
           <Route path='/cloudHosting' element={<CloudHost/>}/>
           <Route path='/resellerHosting' element={<Reseller/>}/>
-          <Route path='/sHosting' element={<SHost/>}/>
+         
           <Route path='/vps' element={<VPS/>}/>
+          <Route path='/sHosting' element={<ShareHost/>}/>
           
           
           

@@ -28,7 +28,7 @@ function Navbar() {
                   Hosting
                 </a>
                 <ul className={`dropdown-menu ${showHostingOptions ? 'show' : ''}`} aria-labelledby="navbarDropdown">
-                  <li><Link className="dropdown-item" to="/sharedHosting">Shared Hosting</Link></li>
+                  <li><Link className="dropdown-item" to="/sHosting">Shared Hosting</Link></li>
                   <li><Link className="dropdown-item" to="/cloudHosting">Cloud Hosting</Link></li>
                   <li><Link className="dropdown-item" to="/resellerHosting">Reseller Hosting</Link></li>
 				  <li><Link className="dropdown-item" to="/vps">VPS Hosting</Link></li>
