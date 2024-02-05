@@ -55,19 +55,18 @@ function Contact(){
         <div className="w-100" />
         <div className="col-md-3">
           <p>
-            <span>Address:</span> 198 West 21th Street, Suite 721 New York NY
-            10016
+            <span>Address:</span> 198 vijay Nagar indore
           </p>
         </div>
         <div className="col-md-3">
           <p>
-            <span>Phone:</span> <Link href="tel://1234567920">+91 9864068717</Link>
+            <span>Phone:</span> <Link href="tel://9864068717">+91 9864068717</Link>
           </p>
         </div>
         <div className="col-md-3">
           <p>
             <span>Email:</span>{" "}
-            <Link href="mailto:info@yoursite.com">info@tphos.com</Link>
+            <Link href="mailto:info@yoursite.com">info@tphost.com</Link>
           </p>
         </div>
         <div className="col-md-3">

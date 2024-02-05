@@ -296,7 +296,7 @@ return(
                       aria-expanded="false"
                       aria-controls="menu3"
                     >
-                      Can I sell my Reseller   domain name?{" "}
+                      Can I sell my Reseller Hosting domain name?{" "}
                       <span className="collapsed">
                         <i className="icon-plus-circle" />
                       </span>
