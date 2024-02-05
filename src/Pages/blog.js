@@ -59,7 +59,7 @@ function Blog(){
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link href="#">Sep. 20, 2018</Link>
+                  <Link href="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link href="#">Admin</Link>
@@ -91,7 +91,7 @@ function Blog(){
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link href="#">Sep. 20, 2018</Link>
+                  <Link href="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link href="#">Admin</Link>
@@ -123,7 +123,7 @@ function Blog(){
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link href="#">Sep. 20, 2018</Link>
+                  <Link href="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link href="#">Admin</Link>
@@ -150,12 +150,12 @@ function Blog(){
             <Link
               href="blog-single.html"
               className="block-20"
-              style={{ backgroundImage: 'url("images/image_4.jpg")' }}
+              style={{ backgroundImage: 'url("assets/images/image_4.jpg")' }}
             ></Link>
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link href="#">Sep. 20, 2018</Link>
+                  <Link href="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link href="#">Admin</Link>
@@ -182,12 +182,12 @@ function Blog(){
             <Link
               href="blog-single.html"
               className="block-20"
-              style={{ backgroundImage: 'url("images/image_5.jpg")' }}
+              style={{ backgroundImage: 'url("assets/images/image_5.jpg")' }}
             ></Link>
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link href="#">Sep. 20, 2018</Link>
+                  <Link href="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link href="#">Admin</Link>
@@ -214,12 +214,12 @@ function Blog(){
             <Link
               href="blog-single.html"
               className="block-20"
-              style={{ backgroundImage: 'url("images/image_6.jpg")' }}
+              style={{ backgroundImage: 'url("assets/images/image_6.jpg")' }}
             ></Link>
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link href="#">Sep. 20, 2018</Link>
+                  <Link href="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link href="#">Admin</Link>
@@ -247,25 +247,25 @@ function Blog(){
           <div className="block-27">
             <ul>
               <li>
-                <Link href="#">&lt;</Link>
+                <Link to="#">&lt;</Link>
               </li>
               <li className="active">
                 <span>1</span>
               </li>
               <li>
-                <Link href="#">2</Link>
+                <Link to="#">2</Link>
               </li>
               <li>
-                <Link href="#">3</Link>
+                <Link to="#">3</Link>
               </li>
               <li>
-                <Link href="#">4</Link>
+                <Link to="#">4</Link>
               </li>
               <li>
-                <Link href="#">5</Link>
+                <Link to="#">5</Link>
               </li>
               <li>
-                <Link href="#">&gt;</Link>
+                <Link to="#">&gt;</Link>
               </li>
             </ul>
           </div>

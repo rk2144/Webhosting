@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
 
 function Footer() {
+  const [showHostingOptions, setShowHostingOptions] = useState(false);
+
+  const toggleHostingOptions = () => {
+    setShowHostingOptions(!showHostingOptions);
+  };
+
   return (
     <div className="App">
      
@@ -87,10 +93,17 @@ function Footer() {
                   Domain
                 </Link>
               </li>
-              <li>
-                <Link to="/hosting" className="py-2 d-block">
+              <li className={`nav-item dropdown ${showHostingOptions ? 'show' : ''}`}>
+                <a className="nav-link dropdown-toggle" href="#" onClick={toggleHostingOptions}>
                   Hosting
-                </Link>
+                </a>
+                <ul className={`dropdown-menu ${showHostingOptions ? 'show' : ''}`} aria-labelledby="navbarDropdown">
+                  <li><Link className="dropdown-item" to="/sHosting">Shared Hosting</Link></li>
+                  <li><Link className="dropdown-item" to="/cloudHosting">Cloud Hosting</Link></li>
+                  <li><Link className="dropdown-item" to="/resellerHosting">Reseller Hosting</Link></li>
+				  <li><Link className="dropdown-item" to="/vps">VPS Hosting</Link></li>
+                  {/* Add more dropdown items here if needed */}
+                </ul>
               </li>
               <li>
                 <Link to="/about" className="py-2 d-block">
