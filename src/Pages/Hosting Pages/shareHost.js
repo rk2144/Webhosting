@@ -3,7 +3,7 @@ import Navbar from '../../componets/Navbar';
 import Footer from '../../componets/Footer';
 import { Link } from 'react-router-dom';
 
-function SHost(){
+function ShareHost(){
 return(
     
     <>
@@ -50,7 +50,7 @@ return(
         <div className="col-md-4 text-center ftco-animate">
           <div className="steps">
             <div className="icon mb-4 d-flex justify-content-center align-items-center">
-              <span className="flaticon-Reseller -computing-1" />
+              <span className="flaticon-cloud-computing-1" />
             </div>
             <h3>Choose Your Plan </h3>
             <p>
@@ -90,7 +90,7 @@ return(
     <div className="container">
       <div className="row justify-content-center mb-5 pb-3">
         <div className="col-md-7 text-center heading-section ftco-animate">
-          <h2 className="mb-4">Our Best Pricing in Reseller   Hosting</h2>
+          <h2 className="mb-4">Our Best Pricing in Share Hosting</h2>
           <p>
             A small river named Duden flows by their place and supplies it with
             the necessary regelialia.
@@ -234,7 +234,7 @@ return(
                       aria-expanded="true"
                       aria-controls="menuone"
                     >
-                      What is your Reseller   domain name?{" "}
+                      What is your Share domain name?{" "}
                       <span className="collapsed">
                         <i className="icon-plus-circle" />
                       </span>
@@ -265,7 +265,7 @@ return(
                       aria-expanded="false"
                       aria-controls="menutwo"
                     >
-                      How long is my Reseller   domain name valid?{" "}
+                      How long is my Share domain name valid?{" "}
                       <span className="collapsed">
                         <i className="icon-plus-circle" />
                       </span>
@@ -296,7 +296,7 @@ return(
                       aria-expanded="false"
                       aria-controls="menu3"
                     >
-                      Can I sell my Reseller   domain name?{" "}
+                      Can I sell my Share domain name?{" "}
                       <span className="collapsed">
                         <i className="icon-plus-circle" />
                       </span>
@@ -329,7 +329,7 @@ return(
                       aria-expanded="false"
                       aria-controls="menu4"
                     >
-                      Can I cancel a Reseller   domain?{" "}
+                      Can I cancel a Share domain?{" "}
                       <span className="collapsed">
                         <i className="icon-plus-circle" />
                       </span>
@@ -360,7 +360,7 @@ return(
                       aria-expanded="false"
                       aria-controls="menu5"
                     >
-                      How do I transfer a Reseller   domain name?{" "}
+                      How do I transfer a Share domain name?{" "}
                       <span className="collapsed">
                         <i className="icon-plus-circle" />
                       </span>
@@ -451,4 +451,4 @@ return(
     
 );
 }
-export default SHost;
+export default ShareHost;
