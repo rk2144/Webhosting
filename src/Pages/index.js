@@ -917,7 +917,7 @@ export function Index(){
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link to="#">Sep. 20, 2018</Link>
+                  <Link to="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link to="#">Admin</Link>
@@ -949,7 +949,7 @@ export function Index(){
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link to="#">Sep. 20, 2018</Link>
+                  <Link to="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link to="#">Admin</Link>
@@ -981,7 +981,7 @@ export function Index(){
             <div className="text d-flex py-4">
               <div className="meta mb-3">
                 <div>
-                  <Link to="#">Sep. 20, 2018</Link>
+                  <Link to="#">Sep. 20, 2023</Link>
                 </div>
                 <div>
                   <Link to="#">Admin</Link>
